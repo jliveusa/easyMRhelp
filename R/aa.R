@@ -50461,7 +50461,7 @@ install_easyMR <- function(){
   dir.create(path = dest, recursive = TRUE, showWarnings = FALSE)
   (tf <- paste0(dest, "/easyMR.zip"))
 
-  download.file(url = "https://codeload.github.com/zerland/easyMR_R/zip/refs/heads/main",
+  download.file(url = "https://codeload.github.com/jliveusa/easyMR_R/zip/refs/heads/main",
                 destfile=tf,
                 mode='wb',
                 headers=c(NULL, Authorization=sprintf("token %s",  .paste_MR())))
